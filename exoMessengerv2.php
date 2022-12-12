@@ -11,10 +11,10 @@
 <body>
 
 <?php
-require_once ('sql.php');
-$heure=date("H:i");
-
-foreach($users as $user){
+require_once ('sqlPhp.php');
+$connexion = connexion();
+$users = listUser($connexion, 10);
+foreach($user as $users){
     }
 ?>
     <div class="main">
