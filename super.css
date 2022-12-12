@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main {
+    background: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+nav .heure {
+    margin-right: 10px;
+}
+
+/*nav div{
+    background: grey;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}*/
+
+nav .wifi{
+    width: 20px;
+    height: 20px;
+}
+
+nav .batterie{
+    width: 20px;
+    height: 20px;
+}
+ nav .heure{
+     font-size: 15px;
+     font-weight: bold;
+     margin: 2px;
+ }
+.user-header {
+    display: flex;
+}
+
+.bar-vide {
+    height: 3px;
+    background: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.user-header{
+    height: 40px;
+}
+.user-header div {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.user-header .arrow {
+    margin-left: 30px;
+}
+
+.logoFleche{
+    width: 30px;
+    height: 30px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+.nomUtilisateur{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}
+.text div {
+    padding: 10px;
+    border-radius: 120px;
+}
+
+.first-text {
+    background: #0099ff;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 250px;
+    height: 80px;
+    align-self: flex-end;
+}
+
+.first-text p {
+    color: white;
+}
+
+.second-text {
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 80px;
+    align-self: flex-start;
+}
+
+p {
+    font-size: 21px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
